@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Serifblack;
+    src: url(fonts/Serifblack.otf);
+}
+
+@font-face{
+    font-family: Centra;
+    src: url(fonts/Centra.ttf);
+}
+
+@font-face{
+    font-family: Serifheavy;
+    src: url(fonts/Serifheavy.otf);
+}
+
+h1{
+    font-family: Serifblack;
+    font-size: 150%;
+}
+
+h2{
+    font-family: Centra;
+    font-size: 150%;
+}
+
+h3{
+    font-family: Serifheavy;
+    font-size: 150%;
+}
+
+section{
+    text-align: center;
+}
+
+section img{
+    width: 13%;
+    height: auto;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+article{
+    display: flex;
+    place-content: center;
+    
+}
+
+article div{
+    margin-left: 3px;
+    margin-right: 3px;
+    color: white;
+    height: 5cm;
+    width: 3cm;
+    text-align: center;
+    transition: 500ms;
+    border-radius: 10%;
+}
+
+article div:hover{
+    margin-top: 1em;
+    font-weight: bold;
+    z-index: 3;
+}
+
+section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+section li{
+    margin-left: 1cm;
+    margin-right: 2cm;
+}
+
+.rojo{
+    background-color: #EC2127;
+}
+
+article .rojo:hover{
+    box-shadow: 0px 0px 36px 6px #EC2127;
+}
+
+.rosado{
+    background-color: #EA0B8B;
+}
+
+article .rosado:hover{
+    box-shadow: 0px 0px 36px 6px #EA0B8B;
+}
+
+.naranja{
+    background-color: #F58220;
+}
+
+article .naranja:hover{
+    box-shadow: 0px 0px 36px 6px #F58220;
+}
+
+.amarillo{
+    background-color: #FFD200;
+}
+
+article .amarillo:hover{
+    box-shadow: 0px 0px 36px 6px #FFD200;
+}
+
+.verde{
+    background-color: #77C043;
+}
+
+article .verde:hover{
+    box-shadow: 0px 0px 36px 6px #77C043;
+}
+
+.celeste{
+    background-color: #2BABE2;
+}
+
+article .celeste:hover{
+    box-shadow: 0px 0px 36px 6px #2BABE2;
+}
+
+.lila{
+    background-color: #724C9F;
+}
+
+article .lila:hover{
+    box-shadow: 0px 0px 36px 6px #724C9F;
+}
+
+.morado{
+    background-color: #432F87;
+}
+
+article .morado:hover{
+    box-shadow: 0px 0px 36px 6px #432F87;
+}
+
+.verde_oscuro{
+    background-color: #18401E;
+}
+
+article .verde_oscuro:hover{
+    box-shadow: 0px 0px 36px 6px #18401E;
+}
+
+.verde_claro{
+    background-color: #D2D90B;
+}
+
+article .verde_claro:hover{
+    box-shadow: 0px 0px 36px 6px #D2D90B;
+}
+
+div p{
+    margin-top: 5.3em;
+    font-family: Serifblack;
+}
